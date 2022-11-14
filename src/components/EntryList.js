@@ -5,8 +5,8 @@ import { searchEntries } from "./EntryManager";
 export const EntryList = ({ moods, entries, onEditButtonClick, onDeleteButtonClick }) => {
 
   // const [filteredEntries, setEntries] = useState([]);
-  const [searchedTerm, setTerm] = useState("");
-  const [moodSelected, setMoodSelected] = useState("");
+  // const [searchedTerm, setTerm] = useState("");
+  // const [moodSelected, setMoodSelected] = useState("");
 
   useEffect(() => {
     if (searchedTerm !== "") {
