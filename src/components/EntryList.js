@@ -8,13 +8,13 @@ export const EntryList = ({ moods, entries, onEditButtonClick, onDeleteButtonCli
   // const [searchedTerm, setTerm] = useState("");
   // const [moodSelected, setMoodSelected] = useState("");
 
-  useEffect(() => {
-    if (searchedTerm !== "") {
-      searchEntries(searchedTerm).then(entriesData => setEntries(entriesData))
-    } else {
-      setEntries(entries)
-    }
-  }, [searchedTerm, entries])
+  // useEffect(() => {
+  //   if (searchedTerm !== "") {
+  //     searchEntries(searchedTerm).then(entriesData => setEntries(entriesData))
+  //   } else {
+  //     setEntries(entries)
+  //   }
+  // }, [searchedTerm, entries])
 
 
   const filterAllEntries = (moodId) => {
